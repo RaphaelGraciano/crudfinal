@@ -1,0 +1,12 @@
+<form method="POST" action="?acao=Form&metodo=salvar">
+  <input type="hidden" name="id" value="{id}" />
+  <label>Tarefa:</label>
+  <textarea type="varchar" name="tarefa" required>{tarefa}</textarea><br />
+  
+  <label>Horário:</label>
+  <input type="time" name="horario" value="{horario}" required /><br />
+
+  <label>Data:</label>
+  <input type="date" name="data"   value="{data}" required  /><br />
+  <button type="submit">Salvar</button>
+</form>
